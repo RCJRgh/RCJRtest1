@@ -1,4 +1,5 @@
 flowchart TD
+    start --> A
     A[Determine Eligibility] --> B{Are you eligible?}
     B -- No --> X[Cannot proceed]
     B -- Yes --> C[Enrol at a Driving Centre]
@@ -9,3 +10,4 @@ flowchart TD
     F --> G[Attend Practical Driving Lessons]
     G --> H[Complete 20-25 lessons with school instructor]
     H --> I[Learn: Basic Skills, Defensive Driving, Circuit, On-road]
+    H --> End
